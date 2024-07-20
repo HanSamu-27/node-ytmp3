@@ -1,0 +1,41 @@
+{
+  "name": "ytdl-mp3",
+  "version": "6.6.6",
+  "description": "Descargador de audios para Youtube",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "fmt": "prettier -w lib"
+  },
+  "keywords": [
+    "ytdl-core",
+    "audio",
+    "youtube",
+    "ffmpeg",
+    "node",
+    "codec",
+    "ytdl-mp3"
+  ],
+  "author": "Samush",
+  "license": "MIT",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.11.10"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "singleQuote": false,
+    "semi": true,
+    "printWidth": 80,
+    "bracketSpacing": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  }
+}
