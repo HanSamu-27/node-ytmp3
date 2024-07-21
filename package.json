@@ -2,12 +2,9 @@
   "name": "ytdl-mp3",
   "version": "6.6.6",
   "description": "Descargador de audios para Youtube",
-  "main": "./lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "index.js",
   "scripts": {
-    "fmt": "prettier -w lib"
+    "fmt": "prettier -w index.js"
   },
   "keywords": [
     "ytdl-core",
